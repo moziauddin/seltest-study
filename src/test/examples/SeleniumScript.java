@@ -9,7 +9,7 @@ public class SeleniumScript {
     @Test
     public void openBrowser() {
         // Set location of chromedriver
-        System.setProperty("webdriver.chrome.driver", "lib/drivers/chromedriver");
+        System.setProperty("webdriver.chrome.driver", "lib/drivers/chromedriver.exe");
 
         // Start session (opens browser)
         WebDriver driver = new ChromeDriver();
